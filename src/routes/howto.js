@@ -13,7 +13,7 @@ class Howto extends Component{
             <title>How To - Techflask</title>
         </Helmet>
         <ContentStyle>
-            <h1>How To Articals:</h1>
+            <h1>How To Articles:</h1>
             {HowCards.map(card =>
             <ul key={card.title}>
             <img src={card.img} alt='' className='img' />

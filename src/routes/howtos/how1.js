@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
 import Layout from '../../components/layout';
-import { ArticalBanner, ArticalStyle } from '../../components/styles';
+import { ArticleBanner, ArticleStyle } from '../../components/styles';
 
 class How1 extends Component{
   render(){
@@ -12,18 +12,18 @@ class How1 extends Component{
         <Helmet>
             <title>How To's - Techflask</title>
         </Helmet>
-        <ArticalBanner>
+        <ArticleBanner>
             <ul>
                 <img src={require('../../images/jvscrptr.jpeg')} alt='' className='usr' />
-                <h1>Artical by: Jvscrpt.r</h1>
+                <h1>Article by: Jvscrpt.r</h1>
                 <a href='https://instagram.com/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
                 <a href='https://twitter.com/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
                 <a href='https://bit.ly/2qIJ7ya' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} /></a>
                 <a href='https://github.com/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} /></a>
                 <a href='https://amazon.com/shop/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'amazon']} /></a>
             </ul>
-        </ArticalBanner>
-        <ArticalStyle>
+        </ArticleBanner>
+        <ArticleStyle>
             <h1>How to install Linux --And why you should</h1>
             <img src={require('../../images/ubuntu.png')} alt='' className='img' />
             <br/><span id='break'>&bull; &bull; &bull;</span><br/>
@@ -54,7 +54,7 @@ class How1 extends Component{
             <h2>Step: 5</h2>
             <img src={require('../../images/ubuntuinstall.png')} alt='' className='img' />
             <p>Let it all load up and with any luck you should see this screen above and now start to try Linux as well as Install it if you have any questions you can message me on my social media above and id be happy to help you with any questions you may have.</p>
-        </ArticalStyle>
+        </ArticleStyle>
     </Layout>
     );
   }

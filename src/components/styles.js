@@ -470,7 +470,7 @@ left: 10px;
     
 }
 `;
-export const ArticalBanner = styled.div`
+export const ArticleBanner = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -546,7 +546,7 @@ left: 10px;
     }
 }
 `;
-export const ArticalStyle = styled.div`
+export const ArticleStyle = styled.div`
 height: auto;
 width: 78.5%;
 padding: 10px;

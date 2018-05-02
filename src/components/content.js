@@ -41,7 +41,7 @@ class CardRenderer extends Component{
     render(){
       return(
       <ContentStyle>
-        {!this.props.search && <h1>Articals:</h1>}
+        {!this.props.search && <h1>Articles:</h1>}
         {this.renderCards()}
       </ContentStyle>
     );
