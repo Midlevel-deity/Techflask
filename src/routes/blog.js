@@ -13,7 +13,7 @@ class Blog extends Component{
             <title>Blogs - Techflask</title>
         </Helmet>
         <ContentStyle>
-            <h1>Blog Articals:</h1>
+            <h1>Blog Articles:</h1>
             {BlogCards.map(card =>
             <ul key={card.title}>
             <img src={card.img} alt='' className='img' />

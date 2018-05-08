@@ -11,7 +11,7 @@ class Tips extends Component{
             <title>Tips & Tricks - Techflask</title>
         </Helmet>
         <ContentStyle>
-            <h1>Tips & Tricks Articals:</h1>
+            <h1>Tips & Tricks Articles:</h1>
         </ContentStyle>
     </Layout>
     );

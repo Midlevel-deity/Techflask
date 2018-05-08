@@ -15,7 +15,7 @@ class Blog1 extends Component{
         <ArticalBanner>
             <ul>
                 <img src={require('../../images/jvscrptr.jpeg')} alt='' className='usr' />
-                <h1>Artical by: Jvscrpt.r</h1>
+                <h1>Article by: Jvscrpt.r</h1>
                 <a href='https://instagram.com/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
                 <a href='https://twitter.com/jvscrptr' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
                 <a href='https://bit.ly/2qIJ7ya' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'youtube']} /></a>

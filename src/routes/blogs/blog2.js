@@ -15,7 +15,7 @@ class Blog2 extends Component{
         <ArticalBanner>
             <ul>
                 <img src={require('../../images/rea.jpeg')} alt='' className='usr' />
-                <h1>Artical by: Rea Newell</h1>
+                <h1>Article by: Rea Newell</h1>
                 <a href='https://www.instagram.com/reanewellwebdev/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
                 <a href='https://twitter.com/reanewell' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
                 <a href='https://github.com/reanewell' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={['fab', 'github']} /></a>
